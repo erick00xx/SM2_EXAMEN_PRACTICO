@@ -1,10 +1,7 @@
 # SM2_EXAMEN_PRACTICO - Alerta Tacna (Nombre Sugerido)
 
-<!-- Reemplaza "Alerta Tacna" con el nombre final de tu app si es diferente. -->
-
-**URL del Repositorio Público:** `https://github.com/[TU_USUARIO_GITHUB]/SM2_EXAMEN_PRACTICO`
-<!-- ¡MUY IMPORTANTE! Reemplaza [TU_USUARIO_GITHUB] con tu nombre de usuario de GitHub. -->
-
+**URL del Repositorio Público:** `https://github.com/erick00xx/SM2_EXAMEN_PRACTICO`
+**CUENTA DE PRUEBA** Correo: erick@gmail.com Contraseña: Upt2024
 ---
 
 ## 📜 Descripción del Proyecto
@@ -32,13 +29,6 @@ A continuación, se detalla la implementación de las dos historias de usuario s
 **Quiero** visualizar un mapa interactivo centrado en la ciudad de Tacna,
 **Para** poder orientarme geográficamente y explorar diferentes zonas de la ciudad.
 
-#### Criterios de Aceptación:
-
-*   [ ] Al abrir la pantalla correspondiente, se muestra un mapa de Google Maps.
-*   [ ] El mapa se carga inicialmente centrado en una ubicación representativa de Tacna.
-*   [ ] El usuario puede hacer zoom (acercar/alejar) en el mapa.
-*   [ ] El usuario puede hacer pan (desplazarse) por el mapa.
-*   [ ] El mapa muestra calles, puntos de interés y otros detalles geográficos proporcionados por Google Maps.
 
 #### Descripción Detallada de la Implementación:
 
@@ -51,8 +41,6 @@ El usuario puede interactuar con el mapa mediante gestos táctiles estándar:
 La API de Google Maps se encarga de renderizar los detalles del mapa, como calles, nombres de lugares y límites geográficos, actualizándolos dinámicamente según la interacción del usuario. No se han añadido marcadores personalizados ni capas adicionales en esta versión inicial de la historia.
 
 #### Evidencia Visual (Capturas de Pantalla):
-
-<!-- Coloca aquí tus capturas. Asegúrate de que las imágenes estén en `assets/images/` -->
 
 **1. Vista inicial del mapa centrado en Tacna.**
 ![Vista inicial del mapa de Tacna](assets/mapa-centrado.png)
@@ -74,20 +62,6 @@ La API de Google Maps se encarga de renderizar los detalles del mapa, como calle
 **Como** usuario de la aplicación,
 **Quiero** tener un botón de emergencia para realizar llamadas rápidas y poder configurar una lista de contactos de emergencia personales,
 **Para** poder solicitar ayuda rápidamente en caso de una emergencia y notificar a mis contactos clave.
-
-#### Criterios de Aceptación:
-
-*   **Botón de Emergencia:**
-    *   [ ] Existe un botón claramente identificable como "Emergencia" o con un ícono universal (ej. SOS, teléfono rojo).
-    *   [ ] Al pulsar el botón de emergencia, se inicia una llamada directa a un número preconfigurado (ej. 105 para la Policía Nacional del Perú).
-    *   [ ] Se solicitan los permisos necesarios para realizar llamadas si aún no han sido otorgados.
-*   **Configuración de Contactos de Emergencia:**
-    *   [ ] El usuario puede acceder a una sección para administrar sus contactos de emergencia.
-    *   [ ] El usuario puede agregar un nuevo contacto de emergencia especificando nombre y número de teléfono.
-    *   [ ] Los contactos agregados se guardan (ej. en Firebase Firestore o localmente).
-    *   [ ] Los contactos guardados se muestran en una lista.
-    *   [ ] (Opcional) El usuario puede editar o eliminar contactos existentes.
-    *   [ ] (Opcional avanzado) Al pulsar un contacto de emergencia de la lista, se inicia una llamada a ese contacto.
 
 #### Descripción Detallada de la Implementación:
 
@@ -167,7 +141,7 @@ Para compilar y ejecutar este proyecto, necesitarás:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone https://github.com/[TU_USUARIO_GITHUB]/SM2_EXAMEN_PRACTICO.git
+    git clone https://github.com/erick00xx/SM2_EXAMEN_PRACTICO.git
     cd SM2_EXAMEN_PRACTICO
     ```
 2.  **Asegúrate de tener tu API Key de Google Maps y el archivo `google-services.json` configurados** como se describe en la sección de "Prerrequisitos".
