@@ -153,32 +153,8 @@ Para compilar y ejecutar este proyecto, necesitarás:
     ```bash
     flutter run
     ```
+**CUENTA DE PRUEBA** Correo: erick@gmail.com Contraseña: Upt2024
     Asegúrate de tener un emulador corriendo o un dispositivo físico conectado.
 
 ---
 
-## 🔗 Enlaces y Referencias
-
-*   **Flutter Documentation:** [https://flutter.dev/docs](https://flutter.dev/docs)
-*   **Google Maps Platform (Flutter):** [https://pub.dev/packages/google_maps_flutter](https://pub.dev/packages/google_maps_flutter)
-*   **URL Launcher (Flutter):** [https://pub.dev/packages/url_launcher](https://pub.dev/packages/url_launcher)
-*   **Cloud Firestore (Flutter):** [https://pub.dev/packages/cloud_firestore](https://pub.dev/packages/cloud_firestore)
-*   **Firebase Console:** [https://console.firebase.google.com/](https://console.firebase.google.com/)
-
----
-
-## 🧑‍💻 Autor
-
-*   **[Tu Nombre Completo]**
-*   **Usuario GitHub:** `[TU_USUARIO_GITHUB]`
-*   **Correo Electrónico (Opcional):** `[tu_correo@ejemplo.com]`
-
----
-<!--
-Notas para ti:
-- Reemplaza `[TU_USUARIO_GITHUB]` y otros placeholders.
-- Crea la carpeta `assets/images/` y añade tus capturas de pantalla con los nombres sugeridos o los que uses.
-- Verifica las versiones exactas de Flutter/Dart si quieres ser más preciso.
-- Revisa los Criterios de Aceptación y la Descripción Detallada para que coincidan 100% con tu implementación.
-- El apartado de "Prerrequisitos" y "Cómo Ejecutar" es crucial para que otra persona pueda probar tu app.
--->
